@@ -1,0 +1,52 @@
+# AgentScout configuration
+# Sender identity, safety rails, and provider chain. Edit before first run.
+
+sender:
+  from_name: "Codeaz"
+  from_email: "SET_ME@gmail.com"          # the Gmail you send from (see README: use a fresh/secondary account)
+  reply_to: "hello@codeaz.org"
+  company_line: "Codeaz — software house, EU"    # appears in footer
+  postal_line: "SET_ME: street, city, country"   # required for compliant footer
+  unsubscribe_line: "If this isn't relevant, reply 'no thanks' and you won't hear from us again."
+
+limits:
+  emails_per_run: 8            # x2 runs/day = 16/day, safe for Gmail + human-looking
+  followup_after_days: 4
+  max_followups: 1
+  discover_per_run: 12         # new candidate companies per run
+  audits_per_run: 6            # LLM-budget bound
+  min_seconds_between_sends: 90
+
+# Cold-email country policy (B2B). NOT legal advice — conservative defaults.
+# blocked = consent effectively required even B2B (DE/AT/NL/DK/CH) or high enforcement risk.
+policy:
+  allowed_countries: [RO, GB]     # focused start: home turf + most email-friendly EU market
+  blocked_countries: [DE, AT, NL, DK, CH]
+  prefer_generic_inbox: true   # info@/hello@/office@ over named persons (cleaner under GDPR)
+
+llm:
+  # Providers tried in order until one answers. All free tiers.
+  # github_models needs no setup inside Actions (uses GITHUB_TOKEN).
+  chain:
+    - provider: github_models
+      model: "openai/gpt-4o-mini"
+      env_key: GITHUB_TOKEN
+      base_url: "https://models.github.ai/inference"
+    - provider: openrouter
+      model: "meta-llama/llama-3.3-70b-instruct:free"
+      env_key: OPENROUTER_API_KEY
+      base_url: "https://openrouter.ai/api/v1"
+    - provider: nvidia_nim
+      model: "meta/llama-3.3-70b-instruct"
+      env_key: NVIDIA_API_KEY
+      base_url: "https://integrate.api.nvidia.com/v1"
+  # Models used to SIMULATE "what does AI say about this company" in audits.
+  # Use 2+ different ones so the audit stat reads "across N AI models".
+  audit_panel:
+    - "openai/gpt-4o-mini"                          # via github_models
+    - "meta-llama/llama-3.3-70b-instruct:free"      # via openrouter
+
+run:
+  active_niches: [dental_tourism, eu_b2b_saas]   # round-robin per run; add more from niches.yaml
+  auto_send: true          # false = drafts only, review in data/outbox.csv first (recommended for run 1)
+  open_screenshot_issues: true

@@ -1,0 +1,86 @@
+dental_tourism:
+  label: Dental & aesthetic clinics selling to UK/IE patients
+  why_they_pay: One implant patient = EUR 3-8k. Their whole funnel is international patients researching
+    online - increasingly via AI.
+  discovery_queries:
+  - dental implants clinic Romania for UK patients
+  - dental clinic Cluj english speaking international patients
+  - dental tourism Bucharest veneers UK patients
+  - all on 4 dental implants Romania clinic price
+  - cosmetic dentistry Timisoara international patients
+  target_countries:
+  - RO
+  buyer_prompts:
+  - I'm in the UK and need full mouth dental implants. Which clinics abroad should I consider?
+  - Best dental tourism clinics in {country} for English-speaking patients?
+  - Is {company} a good dental clinic? What do they charge for implants?
+  - Compare {company} with other dental clinics for veneers abroad.
+  - What are the risks of choosing {company} for dental work?
+  email_angle: 'UK and Irish patients now ask ChatGPT which clinic to trust before they ever search Google.
+    We tested how AI assistants answer for your region - and your clinic''s visibility in those answers
+    is the finding we lead with.
+
+    '
+eu_b2b_saas:
+  label: UK & Romanian B2B SaaS (seed to series B)
+  why_they_pay: They already pay for SEO/G2 presence. AI answers are the new first page and founders know
+    it.
+  discovery_queries:
+  - B2B SaaS startup UK pricing platform
+  - SaaS tool for construction companies UK
+  - B2B SaaS Romania startup platform
+  - HR software startup London small business
+  - logistics software UK SMB pricing
+  - fintech SaaS Bucharest startup
+  target_countries:
+  - GB
+  - RO
+  buyer_prompts:
+  - What is the best software for {category}?
+  - Compare {company} to its top alternatives.
+  - What does {company} cost?
+  - Who is {company} best for and what are the downsides?
+  - What are the risks of choosing {company} as a vendor?
+  email_angle: 'Your buyers ask AI assistants for shortlists before they ever hit your site. We ran the
+    buyer-intent questions for your category through the major models and recorded exactly where you show
+    up - and where a competitor does instead.
+
+    '
+relocation_law:
+  label: UK immigration firms & RO relocation/work-permit agencies
+  why_they_pay: Golden-visa and relocation clients are worth EUR 2-10k and find lawyers by asking exactly
+    the questions AI now answers.
+  discovery_queries:
+  - immigration lawyer UK skilled worker visa firm
+  - UK immigration solicitors business visa
+  - work permit agency Romania foreign workers english
+  - relocation services Bucharest expats immigration
+  target_countries:
+  - GB
+  - RO
+  buyer_prompts:
+  - Best immigration lawyer in {country} for a digital nomad visa?
+  - Is {company} a reputable firm? What do they charge?
+  - Compare {company} to other relocation services in {country}.
+  - Who should I use for a {country} golden visa application?
+  email_angle: 'Expats and investors ask AI who to trust with their visa before contacting anyone. We
+    tested the exact questions your clients ask - the results show which firms AI recommends in {country}
+    today, and whether you''re one of them.
+
+    '
+shopify_apps:
+  label: Shopify app developers
+  why_they_pay: App-store SEO is life or death for them; AI recommendations are the new app-store search.
+  discovery_queries:
+  - shopify app upsell developer site
+  - shopify subscription app alternative
+  - shopify review app pricing
+  target_countries: []
+  buyer_prompts:
+  - What's the best Shopify app for {category}?
+  - Compare {company} with alternatives - which should I install?
+  - What does {company} cost and what are its limitations?
+  email_angle: 'Merchants ask AI which app to install before opening the app store. We ran those questions
+    across the major models and logged which apps get named - and which get skipped.
+
+    '
