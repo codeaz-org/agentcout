@@ -26,14 +26,11 @@ policy:
 
 llm:
   # Providers tried in order until one answers. All free tiers.
-  # github_models needs no setup inside Actions (uses GITHUB_TOKEN).
+  # ponytail: github_models retired 2026-07-30; re-add if a free GitHub-hosted
+  # inference API returns.
   chain:
-    - provider: github_models
-      model: "openai/gpt-4o-mini"
-      env_key: GITHUB_TOKEN
-      base_url: "https://models.github.ai/inference"
     - provider: openrouter
-      model: "meta-llama/llama-3.3-70b-instruct:free"
+      model: "openai/gpt-oss-20b:free"
       env_key: OPENROUTER_API_KEY
       base_url: "https://openrouter.ai/api/v1"
     - provider: nvidia_nim
@@ -43,8 +40,8 @@ llm:
   # Models used to SIMULATE "what does AI say about this company" in audits.
   # Use 2+ different ones so the audit stat reads "across N AI models".
   audit_panel:
-    - "openai/gpt-4o-mini"                          # via github_models
-    - "meta-llama/llama-3.3-70b-instruct:free"      # via openrouter
+    - "openai/gpt-oss-20b:free"        # via openrouter
+    - "meta/llama-3.3-70b-instruct"    # via nvidia_nim
 
 run:
   active_niches: [dental_tourism, eu_b2b_saas]   # round-robin per run; add more from niches.yaml
