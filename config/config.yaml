@@ -3,9 +3,9 @@
 
 sender:
   from_name: "Codeaz"
-  from_email: "SET_ME@gmail.com"          # the Gmail you send from (see README: use a fresh/secondary account)
-  reply_to: "hello@codeaz.org"
-  company_line: "Codeaz — software house, EU"    # appears in footer
+  from_email: "codeazorg@gmail.com"          # the Gmail you send from (see README: use a fresh/secondary account)
+  reply_to: "salut@codeaz.org"
+  company_line: "Codeaz — software house"    # appears in footer
   postal_line: "SET_ME: street, city, country"   # required for compliant footer
   unsubscribe_line: "If this isn't relevant, reply 'no thanks' and you won't hear from us again."
 
