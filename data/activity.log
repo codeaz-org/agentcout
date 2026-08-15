@@ -47,3 +47,39 @@
 {"t": "2026-08-15T12:27:04+00:00", "event": "send_error", "company": "dental tourism in Cluj, Romania", "err": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936cdd68915sm539822385a.0 - gsmtp')"}
 {"t": "2026-08-15T12:27:05+00:00", "event": "send_error", "company": "Medical Tourism in Romania", "err": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a9350a11fsm40273056d6.27 - gsmtp')"}
 {"t": "2026-08-15T12:27:05+00:00", "event": "run_done", "run": 0}
+{"t": "2026-08-15T14:04:51+00:00", "event": "run_start", "run": 1, "niche": "eu_b2b_saas"}
+{"t": "2026-08-15T14:04:57+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 12}
+{"t": "2026-08-15T14:04:57+00:00", "event": "enriched", "company": "Best Logistics Software", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T14:05:01+00:00", "event": "enriched", "company": "Best Logistics Software for Small Business Needs \u00bb Track-POD", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T14:05:03+00:00", "event": "enriched", "company": "Logistics Software", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T14:05:09+00:00", "event": "enriched", "company": "20 Best Logistics Software in UK (Jul 2026)", "email": false, "country": "RO", "status": "no_email"}
+{"t": "2026-08-15T14:05:12+00:00", "event": "enriched", "company": "Best Logistics Software for Small Businesses", "email": true, "country": "ES", "status": "enriched"}
+{"t": "2026-08-15T14:05:15+00:00", "event": "enriched", "company": "Top 8 Logistics Software Solutions for SMBs: How to Choose the Right One", "email": false, "country": "PL", "status": "no_email"}
+{"t": "2026-08-15T14:05:16+00:00", "event": "enriched", "company": "Top startups in Construction SaaS in United Kingdom (Jan, 2026)", "email": true, "country": "FR", "status": "enriched"}
+{"t": "2026-08-15T14:05:20+00:00", "event": "enriched", "company": "Construction SaaS for Home Builders and Trade Contractors", "email": false, "country": "GR", "status": "no_email"}
+{"t": "2026-08-15T14:05:21+00:00", "event": "enriched", "company": "Construction Saas", "email": true, "country": "HU", "status": "enriched"}
+{"t": "2026-08-15T14:05:28+00:00", "event": "enriched", "company": "\u2018Best SaaS Product for the Construction Industry\u2019 Award", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T14:05:36+00:00", "event": "enriched", "company": "Once For All", "email": true, "country": "FR", "status": "enriched"}
+{"t": "2026-08-15T14:05:38+00:00", "event": "enriched", "company": "SAAS Software for Construction Industry", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T14:08:47+00:00", "event": "audited", "company": "Romanian Dental Tourism", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-15T14:12:18+00:00", "event": "audited", "company": "Myra Dental Centre Turkey", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-15T14:15:18+00:00", "event": "audited", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-15T14:18:55+00:00", "event": "audited", "company": "Best Logistics Software for Small Businesses", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-15T14:22:31+00:00", "event": "audited", "company": "Top startups in Construction SaaS in United Kingdom (Jan, 2026)", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-15T14:26:03+00:00", "event": "audited", "company": "Construction Saas", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-15T14:26:31+00:00", "event": "compose_error", "company": "Dental Clinic Cluj, Dentist Cluj", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-15T14:26:48+00:00", "event": "drafted", "company": "Dental Work in Cluj Napoca, Romania", "subject": "Your Clinic's Visibility in AI Assistant Answers"}
+{"t": "2026-08-15T14:27:06+00:00", "event": "compose_error", "company": "Romanian Dental Tourism", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-15T14:27:22+00:00", "event": "drafted", "company": "Myra Dental Centre Turkey", "subject": "Your Clinic's Visibility in AI Assistant Answers"}
+{"t": "2026-08-15T14:27:38+00:00", "event": "drafted", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?", "subject": "Your clinic's visibility in AI assistant answers"}
+{"t": "2026-08-15T14:27:55+00:00", "event": "compose_error", "company": "Best Logistics Software for Small Businesses", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-15T14:28:15+00:00", "event": "drafted", "company": "Top startups in Construction SaaS in United Kingdom (Jan, 2026)", "subject": "Your Construction SaaS Business is Visible in AI Assistants"}
+{"t": "2026-08-15T14:28:35+00:00", "event": "compose_error", "company": "Construction Saas", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-15T14:28:45+00:00", "event": "sent", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "to": "office@platinumdentalcenter.ro", "followup": false}
+{"t": "2026-08-15T14:30:16+00:00", "event": "sent", "company": "(English) Empire Dental", "to": "empiredentalcluj@gmail.com", "followup": false}
+{"t": "2026-08-15T14:31:47+00:00", "event": "sent", "company": "dental tourism in Cluj, Romania", "to": "info@dentosanmed.ro", "followup": false}
+{"t": "2026-08-15T14:33:18+00:00", "event": "sent", "company": "Dental Work in Cluj Napoca, Romania", "to": "info@medicaltourismco.com", "followup": false}
+{"t": "2026-08-15T14:34:49+00:00", "event": "sent", "company": "Medical Tourism in Romania", "to": "office@balcancare.com", "followup": false}
+{"t": "2026-08-15T14:36:19+00:00", "event": "sent", "company": "Myra Dental Centre Turkey", "to": "info@myradental.co.uk", "followup": false}
+{"t": "2026-08-15T14:37:50+00:00", "event": "sent", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?", "to": "info@opussmile.com", "followup": false}
+{"t": "2026-08-15T14:39:20+00:00", "event": "run_done", "run": 1}
