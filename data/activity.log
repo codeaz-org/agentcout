@@ -1,0 +1,49 @@
+{"t": "2026-08-15T11:57:56+00:00", "event": "run_start", "run": 0, "niche": "dental_tourism"}
+{"t": "2026-08-15T11:58:01+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 12}
+{"t": "2026-08-15T11:58:02+00:00", "event": "enriched", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-15T11:58:07+00:00", "event": "enriched", "company": "Dental Clinic Cluj, Dentist Cluj", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-15T11:58:10+00:00", "event": "enriched", "company": "(English) Empire Dental", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-15T11:58:12+00:00", "event": "enriched", "company": "dental tourism in Cluj, Romania", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-15T11:58:14+00:00", "event": "enriched", "company": "Dental Work in Cluj Napoca, Romania", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-08-15T11:58:17+00:00", "event": "enriched", "company": "dental clinic Cluj", "email": false, "country": "RO", "status": "no_email"}
+{"t": "2026-08-15T11:58:19+00:00", "event": "enriched", "company": "Medical Tourism in Romania", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-08-15T11:58:22+00:00", "event": "enriched", "company": "Romanian Dental Tourism", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-15T11:58:24+00:00", "event": "enriched", "company": "Myra Dental Centre Turkey", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-15T11:58:26+00:00", "event": "enriched", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-15T11:58:53+00:00", "event": "enriched", "company": "Dental Veneers Bucharest", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T11:58:55+00:00", "event": "enriched", "company": "Turkey Teeth in UK DCI Dental Clinic", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-15T12:00:20+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:02:59+00:00", "event": "audited", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "verdict": "weak", "visibility": "2/7"}
+{"t": "2026-08-15T12:05:52+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:07:39+00:00", "event": "audited", "company": "Dental Clinic Cluj, Dentist Cluj", "verdict": "visible", "visibility": "6/7"}
+{"t": "2026-08-15T12:10:39+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:12:32+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:13:25+00:00", "event": "audited", "company": "(English) Empire Dental", "verdict": "weak", "visibility": "1/6"}
+{"t": "2026-08-15T12:16:33+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:17:32+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:18:31+00:00", "event": "audited", "company": "dental tourism in Cluj, Romania", "verdict": "visible", "visibility": "5/6"}
+{"t": "2026-08-15T12:20:00+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: 'NoneType' object has no attribute 'strip'"}
+{"t": "2026-08-15T12:20:36+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: rate-limited"}
+{"t": "2026-08-15T12:21:17+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: rate-limited"}
+{"t": "2026-08-15T12:22:12+00:00", "event": "audited", "company": "Dental Work in Cluj Napoca, Romania", "verdict": "visible", "visibility": "2/5"}
+{"t": "2026-08-15T12:22:50+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: rate-limited"}
+{"t": "2026-08-15T12:23:19+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: rate-limited"}
+{"t": "2026-08-15T12:23:44+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: rate-limited"}
+{"t": "2026-08-15T12:24:25+00:00", "event": "audit_model_failed", "provider": "openrouter", "err": "All LLM providers failed: openrouter: rate-limited"}
+{"t": "2026-08-15T12:25:14+00:00", "event": "audited", "company": "Medical Tourism in Romania", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-15T12:25:41+00:00", "event": "drafted", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "subject": "Your clinic's visibility in AI assistant answers"}
+{"t": "2026-08-15T12:25:55+00:00", "event": "compose_error", "company": "Dental Clinic Cluj, Dentist Cluj", "err": "string indices must be integers, not 'str'"}
+{"t": "2026-08-15T12:26:12+00:00", "event": "drafted", "company": "(English) Empire Dental", "subject": "Your Clinic's Visibility in AI Assistant Answers"}
+{"t": "2026-08-15T12:26:29+00:00", "event": "drafted", "company": "dental tourism in Cluj, Romania", "subject": "Your clinic's visibility in AI assistant answers"}
+{"t": "2026-08-15T12:26:46+00:00", "event": "compose_error", "company": "Dental Work in Cluj Napoca, Romania", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-15T12:27:01+00:00", "event": "drafted", "company": "Medical Tourism in Romania", "subject": "Your clinic's visibility in AI assistant answers"}
+{"t": "2026-08-15T12:27:01+00:00", "event": "issue_error", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "err": "Command '['gh', 'issue', 'create', '--title', '\ud83d\udcf8 Screenshot TODO: Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca (weak)', '--body', \"**Lead:** Clinica Stomatologic\u0103 Platinum Dental Center Cl"}
+{"t": "2026-08-15T12:27:02+00:00", "event": "issue_error", "company": "(English) Empire Dental", "err": "Command '['gh', 'issue', 'create', '--title', '\ud83d\udcf8 Screenshot TODO: (English) Empire Dental (weak)', '--body', \"**Lead:** (English) Empire Dental \u2014 https://empiredental.ro (RO)\\n**Verdict:** weak \u2014 visi"}
+{"t": "2026-08-15T12:27:02+00:00", "event": "issue_error", "company": "dental tourism in Cluj, Romania", "err": "Command '['gh', 'issue', 'create', '--title', '\ud83d\udcf8 Screenshot TODO: dental tourism in Cluj, Romania (visible)', '--body', \"**Lead:** dental tourism in Cluj, Romania \u2014 https://dentosanmed.ro (RO)\\n**Verd"}
+{"t": "2026-08-15T12:27:03+00:00", "event": "issue_error", "company": "Medical Tourism in Romania", "err": "Command '['gh', 'issue', 'create', '--title', '\ud83d\udcf8 Screenshot TODO: Medical Tourism in Romania (visible)', '--body', \"**Lead:** Medical Tourism in Romania \u2014 https://balcancare.com ()\\n**Verdict:** visib"}
+{"t": "2026-08-15T12:27:03+00:00", "event": "imap_error", "err": "b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'"}
+{"t": "2026-08-15T12:27:03+00:00", "event": "send_error", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "err": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936e98a1a53sm112486685a.2 - gsmtp')"}
+{"t": "2026-08-15T12:27:04+00:00", "event": "send_error", "company": "(English) Empire Dental", "err": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936ce21cb5bsm529337685a.36 - gsmtp')"}
+{"t": "2026-08-15T12:27:04+00:00", "event": "send_error", "company": "dental tourism in Cluj, Romania", "err": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936cdd68915sm539822385a.0 - gsmtp')"}
+{"t": "2026-08-15T12:27:05+00:00", "event": "send_error", "company": "Medical Tourism in Romania", "err": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a9350a11fsm40273056d6.27 - gsmtp')"}
+{"t": "2026-08-15T12:27:05+00:00", "event": "run_done", "run": 0}
