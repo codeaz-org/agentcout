@@ -48,9 +48,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"                                  # ponytail: see logs live, not post-mortem
           OLLAMA_HOST: "127.0.0.1:11434"                         # truthy → provider enabled in common.py
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}              # gh issues only (Models retired 2026-07-30)
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}  # panel voice #2 (free tier)
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}          # last-ditch fallback
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}              # gh issues only
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python -u src/run_all.py

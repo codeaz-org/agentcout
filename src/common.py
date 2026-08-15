@@ -102,7 +102,7 @@ def llm(prompt: str, system: str = "", provider: str | None = None,
                 time.sleep(2)
                 continue
             r.raise_for_status()
-            out = r.json()["choices"][0]["message"]["content"].strip()
+            out = (r.json()["choices"][0]["message"].get("content") or "").strip()
             if out:
                 return out
         except Exception as e:  # noqa: BLE001 - fall through the chain

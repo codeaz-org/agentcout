@@ -86,7 +86,7 @@ def open_issues() -> int:
         try:
             subprocess.run(["gh", "issue", "create", "--title",
                             f"📸 Screenshot TODO: {l['company']} ({f.get('verdict')})",
-                            "--body", body, "--label", "screenshot-todo"],
+                            "--body", body],
                            check=True, capture_output=True, text=True, cwd=ROOT)
             l["notes"] = (l.get("notes") or "") + " issue_opened"
             opened += 1
@@ -204,8 +204,7 @@ def check_replies() -> int:
                 elif os.environ.get("GITHUB_TOKEN"):
                     subprocess.run(["gh", "issue", "create", "--title",
                                     f"🔥 REPLY from {l['company']}",
-                                    "--body", f"{sender} replied. Go close them.\n{l['url']}",
-                                    "--label", "hot-reply"],
+                                    "--body", f"{sender} replied. Go close them.\n{l['url']}"],
                                    capture_output=True, text=True, cwd=ROOT)
         M.logout()
         save_leads(leads)
