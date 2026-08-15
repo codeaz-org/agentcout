@@ -19,7 +19,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -30,14 +30,30 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama
+          key: ollama-llama3.2-3b-v1
+
+      - name: Install & start Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # ponytail: installer may or may not start systemd; race a manual serve, one wins
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          until curl -sf http://localhost:11434 >/dev/null; do sleep 1; done
+          ollama pull llama3.2:3b
+
       - name: Run pipeline
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          # free LLM via GitHub Models + gh issues
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}  # optional fallback (free tier)
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}          # optional fallback (free tier)
+          PYTHONUNBUFFERED: "1"                                  # ponytail: see logs live, not post-mortem
+          OLLAMA_HOST: "127.0.0.1:11434"                         # truthy → provider enabled in common.py
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}              # gh issues only (Models retired 2026-07-30)
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}  # panel voice #2 (free tier)
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}          # last-ditch fallback
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python src/run_all.py
+        run: python -u src/run_all.py
 
       - name: Commit state back
         run: |

@@ -21,12 +21,12 @@ SYSTEM = ("You are a helpful assistant advising a real buyer. Answer naturally a
 
 def run_panel(prompt: str) -> list[str]:
     answers = []
-    for model in cfg()["llm"]["audit_panel"]:
+    for provider in cfg()["llm"]["audit_panel"]:
         try:
-            answers.append(llm(prompt, system=SYSTEM, model_override=model,
+            answers.append(llm(prompt, system=SYSTEM, provider=provider,
                                temperature=0.6, max_tokens=500))
         except RuntimeError as e:
-            log("audit_model_failed", model=model, err=str(e))
+            log("audit_model_failed", provider=provider, err=str(e))
     return answers
 
 

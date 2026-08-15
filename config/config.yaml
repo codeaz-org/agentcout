@@ -25,10 +25,14 @@ policy:
   prefer_generic_inbox: true   # info@/hello@/office@ over named persons (cleaner under GDPR)
 
 llm:
-  # Providers tried in order until one answers. All free tiers.
-  # ponytail: github_models retired 2026-07-30; re-add if a free GitHub-hosted
-  # inference API returns.
+  # Providers tried in order until one answers.
+  # ollama runs on the runner (constant, offline). Hosted free tiers churn,
+  # so they're fallbacks for the second panel voice.
   chain:
+    - provider: ollama
+      model: "llama3.2:3b"
+      env_key: OLLAMA_HOST         # set to any truthy value in the workflow
+      base_url: "http://localhost:11434/v1"
     - provider: openrouter
       model: "openai/gpt-oss-20b:free"
       env_key: OPENROUTER_API_KEY
@@ -37,11 +41,11 @@ llm:
       model: "meta/llama-3.3-70b-instruct"
       env_key: NVIDIA_API_KEY
       base_url: "https://integrate.api.nvidia.com/v1"
-  # Models used to SIMULATE "what does AI say about this company" in audits.
-  # Use 2+ different ones so the audit stat reads "across N AI models".
+  # Provider names — each panel entry runs on that provider's default model,
+  # so the audit stat reads "across N AI models" with real diversity.
   audit_panel:
-    - "openai/gpt-oss-20b:free"        # via openrouter
-    - "meta/llama-3.3-70b-instruct"    # via nvidia_nim
+    - ollama       # local, 3B, always on
+    - openrouter   # hosted, larger model, different voice
 
 run:
   active_niches: [dental_tourism, eu_b2b_saas]   # round-robin per run; add more from niches.yaml

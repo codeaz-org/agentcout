@@ -68,34 +68,34 @@ def log(event: str, **kw) -> None:
 
 # ---------- Free LLM chain with fallback ----------
 
-def llm(prompt: str, system: str = "", model_override: str | None = None,
+def llm(prompt: str, system: str = "", provider: str | None = None,
         temperature: float = 0.4, max_tokens: int = 900) -> str:
-    """Try each configured provider in order; return first success."""
+    """Try each configured provider in order; return first success.
+
+    Pin to one provider with `provider=` (used by the audit panel so each
+    panel entry is a distinct model voice).
+    """
     chain = cfg()["llm"]["chain"]
+    if provider:
+        chain = [p for p in chain if p["provider"] == provider]
     errors = []
     for p in chain:
         key = os.environ.get(p["env_key"], "")
         if not key:
             errors.append(f"{p['provider']}: no {p['env_key']}")
             continue
-        model = model_override or p["model"]
-        # model_override may belong to another provider's catalog; only force it
-        # on the provider whose catalog it matches, else use provider default.
-        if model_override and model_override not in (p["model"],):
-            if (":free" in model_override) != (p["provider"] == "openrouter"):
-                model = p["model"]
         try:
             r = requests.post(
                 f"{p['base_url']}/chat/completions",
                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
                 json={
-                    "model": model,
+                    "model": p["model"],
                     "temperature": temperature,
                     "max_tokens": max_tokens,
                     "messages": ([{"role": "system", "content": system}] if system else [])
                              + [{"role": "user", "content": prompt}],
                 },
-                timeout=90,
+                timeout=60,
             )
             if r.status_code == 429:
                 errors.append(f"{p['provider']}: rate-limited")
