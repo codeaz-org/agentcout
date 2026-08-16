@@ -65,35 +65,78 @@ def compose(limit: int = 10) -> int:
 
 # --------------------------- SCREENSHOT ISSUES ---------------------------
 
-def open_issues() -> int:
-    """One TODO issue per newly drafted lead: exact prompts for you to screenshot."""
-    if not cfg()["run"]["open_screenshot_issues"] or not os.environ.get("GITHUB_TOKEN"):
-        return 0
+def render_screenshots() -> int:
+    """Render one 'AI answer' PNG per audited lead, from the worst-fail prompt.
+
+    Replaces the old manual gh-issue TODO. The image mimics an AI chat panel
+    (neutral branding — not fake ChatGPT). Attached to the follow-up email.
+    """
+    from PIL import Image, ImageDraw, ImageFont
+    W, PAD, LH = 900, 40, 26
+
+    def _font(size, bold=False):
+        name = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
+        for base in ("/usr/share/fonts/truetype/dejavu/",
+                     "/System/Library/Fonts/Supplemental/", "/Library/Fonts/"):
+            try:
+                return ImageFont.truetype(base + name, size)
+            except OSError:
+                continue
+        return ImageFont.load_default()
+
+    def wrap(text, font, w):
+        out, cur = [], ""
+        for word in text.split():
+            trial = (cur + " " + word).strip()
+            if font.getlength(trial) <= w:
+                cur = trial
+            else:
+                if cur:
+                    out.append(cur)
+                cur = word
+        if cur:
+            out.append(cur)
+        return out
+
     leads = load_leads()
-    opened = 0
+    out_dir = ROOT / "screenshots"
+    out_dir.mkdir(exist_ok=True)
+    fb, fp, fh = _font(18), _font(16), _font(13, bold=True)
+    done = 0
     for l in leads.values():
-        if l["status"] != "drafted" or "issue_opened" in (l.get("notes") or ""):
+        path = out_dir / f"{l['id']}.png"
+        if path.exists() or not l.get("audit_json"):
             continue
-        f = json.loads(l["audit_json"] or "{}")
-        prompts = "\n".join(f"- [ ] `{p['prompt']}`" for p in f.get("per_prompt", []))
-        body = (f"**Lead:** {l['company']} — {l['url']} ({l['country']})\n"
-                f"**Verdict:** {f.get('verdict')} — visible in {f.get('visible_in')}/{f.get('answers')} AI answers\n"
-                f"**Competitors AI names instead:** {', '.join(f.get('competitors_named', []))}\n\n"
-                f"### Your 3-minute TODO\nRun these in ChatGPT/Gemini (web), screenshot the best fail:\n{prompts}\n\n"
-                f"Save the screenshot as `screenshots/{l['id']}.png`, commit to main.\n"
-                f"It will be attached automatically to the follow-up email.\n\n"
-                f"First (text-only) email goes out automatically; this screenshot arms the follow-up.")
+        per = json.loads(l["audit_json"]).get("per_prompt") or []
+        # worst = first prompt where visible=0 with an answer sample, else first with sample
+        pick = next((x for x in per if x.get("visible") == 0 and x.get("sample")), None)
+        if not pick:
+            pick = next((x for x in per if x.get("sample")), None)
+        if not pick:
+            continue
         try:
-            subprocess.run(["gh", "issue", "create", "--title",
-                            f"📸 Screenshot TODO: {l['company']} ({f.get('verdict')})",
-                            "--body", body],
-                           check=True, capture_output=True, text=True, cwd=ROOT)
-            l["notes"] = (l.get("notes") or "") + " issue_opened"
-            opened += 1
+            pl = wrap(pick["prompt"], fb, W - 2 * PAD)
+            al = wrap(pick["sample"], fp, W - 2 * PAD)
+            header_h = 46
+            H = header_h + PAD + 22 + len(pl) * LH + 20 + 22 + len(al) * LH + PAD
+            img = Image.new("RGB", (W, H), (255, 255, 255))
+            d = ImageDraw.Draw(img)
+            d.rectangle([0, 0, W, header_h], fill=(52, 53, 65))
+            d.text((PAD, 14), "AI search — what a buyer sees", fill="white", font=fh)
+            y = header_h + PAD
+            d.text((PAD, y), "BUYER ASKED", fill=(108, 111, 122), font=fh); y += 22
+            for ln in pl:
+                d.text((PAD, y), ln, fill=(32, 33, 35), font=fb); y += LH
+            y += 20
+            d.text((PAD, y), "AI ANSWERED", fill=(108, 111, 122), font=fh); y += 22
+            for ln in al:
+                d.text((PAD, y), ln, fill=(32, 33, 35), font=fp); y += LH
+            img.save(path)
+            done += 1
+            log("screenshot_rendered", company=l["company"], file=path.name)
         except Exception as e:  # noqa: BLE001
-            log("issue_error", company=l["company"], err=str(e)[:200])
-    save_leads(leads)
-    return opened
+            log("screenshot_error", company=l["company"], err=str(e))
+    return done
 
 
 # --------------------------- SEND ---------------------------
@@ -219,8 +262,8 @@ if __name__ == "__main__":
     c = cfg()
     if stage in ("compose", "all"):
         compose()
-    if stage in ("issues", "all"):
-        open_issues()
+    if stage in ("screenshots", "all"):
+        render_screenshots()
     if stage in ("replies", "all"):
         check_replies()
     if stage in ("send", "all"):

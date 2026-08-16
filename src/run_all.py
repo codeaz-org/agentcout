@@ -17,7 +17,7 @@ def main():
     discover.enrich_new()
     audit.run(c["limits"]["audits_per_run"])
     outreach.compose()
-    outreach.open_issues()
+    outreach.render_screenshots()
     outreach.check_replies()
     outreach.send(c["limits"]["emails_per_run"])
     log("run_done", run=n)
