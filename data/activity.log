@@ -83,3 +83,55 @@
 {"t": "2026-08-15T14:36:19+00:00", "event": "sent", "company": "Myra Dental Centre Turkey", "to": "info@myradental.co.uk", "followup": false}
 {"t": "2026-08-15T14:37:50+00:00", "event": "sent", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?", "to": "info@opussmile.com", "followup": false}
 {"t": "2026-08-15T14:39:20+00:00", "event": "run_done", "run": 1}
+{"t": "2026-08-16T10:36:24+00:00", "event": "run_start", "run": 2, "niche": "dental_tourism"}
+{"t": "2026-08-16T10:36:31+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 12}
+{"t": "2026-08-16T10:36:32+00:00", "event": "enriched", "company": "Dental implant", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-16T10:36:34+00:00", "event": "enriched", "company": "Dentist in Romania", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-16T10:36:55+00:00", "event": "enriched", "company": "Bucharest British Dental Place", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-16T10:36:57+00:00", "event": "enriched", "company": "Dental treatment in Bucharest for UK patients", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-16T10:37:00+00:00", "event": "enriched", "company": "Romania", "email": false, "country": "FR", "status": "no_email"}
+{"t": "2026-08-16T10:37:06+00:00", "event": "enriched", "company": "Cosmetic Dental Tourism forUS / UK Patients", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-16T10:37:08+00:00", "event": "enriched", "company": "All-on-4 Dental Implants in Romania \u2013 Costs and Packages 2025", "email": true, "country": "PL", "status": "enriched"}
+{"t": "2026-08-16T10:37:13+00:00", "event": "enriched", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-16T10:37:15+00:00", "event": "enriched", "company": "2+ Top All on 4 Dental Implants Clinic in Romania 2026", "email": true, "country": "IT", "status": "enriched"}
+{"t": "2026-08-16T10:37:19+00:00", "event": "enriched", "company": "Full Mouth Dental Implants", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-16T10:37:21+00:00", "event": "enriched", "company": "Dentist Timisoara", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-16T10:37:26+00:00", "event": "enriched", "company": "Dental Clinic Timisoara", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-16T10:40:27+00:00", "event": "audited", "company": "Once For All", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-16T10:42:56+00:00", "event": "audited", "company": "Dental implant", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-16T10:45:54+00:00", "event": "audited", "company": "Dental treatment in Bucharest for UK patients", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-16T10:48:44+00:00", "event": "audited", "company": "All-on-4 Dental Implants in Romania \u2013 Costs and Packages 2025", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-16T10:51:51+00:00", "event": "audited", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-16T10:55:09+00:00", "event": "audited", "company": "2+ Top All on 4 Dental Implants Clinic in Romania 2026", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-16T10:55:25+00:00", "event": "drafted", "company": "Dental Clinic Cluj, Dentist Cluj", "subject": "Your Clinic's AI Visibility in UK/Irish Patient Queries"}
+{"t": "2026-08-16T10:55:38+00:00", "event": "compose_error", "company": "Romanian Dental Tourism", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-16T10:55:56+00:00", "event": "compose_error", "company": "Best Logistics Software for Small Businesses", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-16T10:56:08+00:00", "event": "compose_error", "company": "Construction Saas", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-16T10:56:30+00:00", "event": "compose_error", "company": "Once For All", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-16T10:56:54+00:00", "event": "compose_error", "company": "Dental implant", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-08-16T10:57:07+00:00", "event": "drafted", "company": "Dental treatment in Bucharest for UK patients", "subject": "Your clinic's visibility in AI assistant answers"}
+{"t": "2026-08-16T10:57:22+00:00", "event": "drafted", "company": "All-on-4 Dental Implants in Romania \u2013 Costs and Packages 2025", "subject": "Your clinic's AI visibility score is 75%"}
+{"t": "2026-08-16T10:57:36+00:00", "event": "drafted", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "subject": "Your Clinic's Visibility in AI Assistant Answers"}
+{"t": "2026-08-16T10:57:49+00:00", "event": "drafted", "company": "2+ Top All on 4 Dental Implants Clinic in Romania 2026", "subject": "Your clinic's visibility in AI assistant answers"}
+{"t": "2026-08-16T10:57:49+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-16T10:57:49+00:00", "event": "screenshot_rendered", "company": "Dental Clinic Cluj, Dentist Cluj", "file": "23c5f827d0.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "dental tourism in Cluj, Romania", "file": "e001ee4b59.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Dental Work in Cluj Napoca, Romania", "file": "beea0ad255.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Medical Tourism in Romania", "file": "7d58fb6d2c.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Romanian Dental Tourism", "file": "fc0665dcdb.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Myra Dental Centre Turkey", "file": "779a6c7dbc.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?", "file": "d8d22fdcbc.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Best Logistics Software for Small Businesses", "file": "baa83f755a.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Top startups in Construction SaaS in United Kingdom (Jan, 2026)", "file": "22bb8552fa.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Construction Saas", "file": "67f8ae0ed7.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Once For All", "file": "297fdfd248.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Dental implant", "file": "7e10149ff0.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "Dental treatment in Bucharest for UK patients", "file": "8ce63235c0.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "All-on-4 Dental Implants in Romania \u2013 Costs and Packages 2025", "file": "ae14040ce6.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "file": "a61c02bd7c.png"}
+{"t": "2026-08-16T10:57:50+00:00", "event": "screenshot_rendered", "company": "2+ Top All on 4 Dental Implants Clinic in Romania 2026", "file": "98424d9b52.png"}
+{"t": "2026-08-16T10:57:54+00:00", "event": "sent", "company": "Dental Clinic Cluj, Dentist Cluj", "to": "office@lifedentalspa.ro", "followup": false}
+{"t": "2026-08-16T10:59:25+00:00", "event": "sent", "company": "Dental treatment in Bucharest for UK patients", "to": "contact@dentalcareabroad.co.uk", "followup": false}
+{"t": "2026-08-16T11:00:56+00:00", "event": "sent", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "to": "orders@jcrinc.com", "followup": false}
+{"t": "2026-08-16T11:02:26+00:00", "event": "run_done", "run": 2}
