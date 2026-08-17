@@ -135,3 +135,38 @@
 {"t": "2026-08-16T10:59:25+00:00", "event": "sent", "company": "Dental treatment in Bucharest for UK patients", "to": "contact@dentalcareabroad.co.uk", "followup": false}
 {"t": "2026-08-16T11:00:56+00:00", "event": "sent", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "to": "orders@jcrinc.com", "followup": false}
 {"t": "2026-08-16T11:02:26+00:00", "event": "run_done", "run": 2}
+{"t": "2026-08-17T08:04:56+00:00", "event": "run_start", "run": 3, "niche": "eu_b2b_saas"}
+{"t": "2026-08-17T08:05:00+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 12}
+{"t": "2026-08-17T08:05:00+00:00", "event": "enriched", "company": "Blog Seedblink", "email": true, "country": "IT", "status": "enriched"}
+{"t": "2026-08-17T08:05:03+00:00", "event": "enriched", "company": "B2B SaaS startups and investors in Europe", "email": false, "country": "IT", "status": "no_email"}
+{"t": "2026-08-17T08:05:06+00:00", "event": "enriched", "company": "Romania startups", "email": false, "country": "PL", "status": "no_email"}
+{"t": "2026-08-17T08:05:15+00:00", "event": "enriched", "company": "SaaS/PaaS", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-17T08:05:16+00:00", "event": "enriched", "company": "Romania SaaS Companies", "email": true, "country": "GR", "status": "enriched"}
+{"t": "2026-08-17T08:05:20+00:00", "event": "enriched", "company": "B2B SaaS Archives", "email": true, "country": "ES", "status": "enriched"}
+{"t": "2026-08-17T08:05:23+00:00", "event": "enriched", "company": "List of technology startups in Romania", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-17T08:05:25+00:00", "event": "enriched", "company": "45 Fast Growth B2B SaaS companies in the United Kingdom", "email": false, "country": "RO", "status": "no_email"}
+{"t": "2026-08-17T08:05:28+00:00", "event": "enriched", "company": "Top SaaS Startups in the UK to Watch in 2026 [Extended List]", "email": true, "country": "FR", "status": "enriched"}
+{"t": "2026-08-17T08:05:34+00:00", "event": "enriched", "company": "Seven B2B SaaS Pricing Models and How to Choose the Right One", "email": false, "country": "FR", "status": "no_email"}
+{"t": "2026-08-17T08:05:36+00:00", "event": "enriched", "company": "Top 100 SaaS Companies in the UK", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-17T08:05:38+00:00", "event": "enriched", "company": "Best B2B SaaS GTM Agencies in 2026: 6 Go-to-Market Agencies Compared from Strate", "email": true, "country": "DK", "status": "blocked_country"}
+{"t": "2026-08-17T08:08:38+00:00", "event": "audited", "company": "Full Mouth Dental Implants", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-17T08:11:24+00:00", "event": "audited", "company": "Dentist Timisoara", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-17T08:14:08+00:00", "event": "audited", "company": "Dental Clinic Timisoara", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-17T08:16:10+00:00", "event": "audited", "company": "Blog Seedblink", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-17T08:19:48+00:00", "event": "audited", "company": "Romania SaaS Companies", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "audited", "company": "B2B SaaS Archives", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Romanian Dental Tourism", "visibility": "2/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Best Logistics Software for Small Businesses", "visibility": "2/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Construction Saas", "visibility": "3/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Once For All", "visibility": "3/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Dental implant", "visibility": "4/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Full Mouth Dental Implants", "visibility": "3/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Dentist Timisoara", "visibility": "2/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Dental Clinic Timisoara", "visibility": "4/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Blog Seedblink", "visibility": "3/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "Romania SaaS Companies", "visibility": "4/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "not_target", "company": "B2B SaaS Archives", "visibility": "3/4"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-17T08:22:56+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-17T08:22:59+00:00", "event": "REPLY", "company": "All-on-4 Dental Implants in Romania \u2013 Compare Clinics & Prices", "from_": "orders@jcrinc.com"}
+{"t": "2026-08-17T08:23:00+00:00", "event": "run_done", "run": 3}
