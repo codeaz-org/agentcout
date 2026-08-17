@@ -34,26 +34,45 @@ def compose(limit: int = 10) -> int:
         if l["status"] != "audited" or done >= limit:
             continue
         f = json.loads(l["audit_json"] or "{}")
+        # Only pitch leads that actually need help. Emailing visible companies
+        # "you're not visible" is worse than not emailing at all.
+        if f.get("verdict") == "visible":
+            l["status"] = "not_target"
+            log("not_target", company=l["company"],
+                visibility=f"{f.get('visible_in')}/{f.get('answers')}")
+            continue
+        per = f.get("per_prompt", []) or []
+        worst = next((p for p in per if p.get("visible") == 0 and p.get("sample")), None) \
+                or next((p for p in per if p.get("sample")), None)
+        if not worst:
+            log("compose_skip", company=l["company"], reason="no_prompt_sample")
+            continue
         niche = c["niches"][l["niche"]]
-        stat = (f"Asked {f['asked']} buyer questions across {len(c['llm']['audit_panel'])} AI models "
-                f"({f['answers']} answers total). {l['company']} appeared in {f['visible_in']} of "
-                f"{f['answers']} answers ({f['visibility_pct']}%). "
-                f"Competitors named instead: {', '.join(f['competitors_named'][:3]) or 'several others'}.")
+        competitors = f.get("competitors_named", [])[:3] or ["other providers"]
         try:
             out = llm_json(
                 f"{PLAYBOOK}\n\n"
-                f"Write a cold email to the team at {l['company']} ({l['url']}), "
-                f"a {niche['label']} business in {l['country'] or 'Europe'}.\n"
-                f"Sender: {c['sender']['from_name']}, a software house ({c['sender']['reply_to']}).\n"
-                f"Angle: {niche['email_angle']}\n"
-                f"THE FINDING (use the concrete numbers, do not exaggerate): {stat}\n"
-                f"Verdict: {f['verdict']}.\n"
-                f"Offer: a full agent-readiness audit + fix (llms.txt, structured pricing/FAQ, "
-                f"comparison pages) so AI assistants recommend them accurately.\n"
-                'Return JSON: {"subject": "...", "body": "..."} - body plain text, '
-                "under 130 words, no placeholders, no [brackets].",
+                f"Write a short cold email to the team at {l['company']} ({l['url']}), a "
+                f"{niche['label']} business in {l['country'] or 'Europe'}.\n"
+                f"Sender: {c['sender']['from_name']} ({c['sender']['reply_to']}).\n"
+                f"Angle: {niche['email_angle']}\n\n"
+                f"THE EVIDENCE (paraphrase, do NOT invent numbers or names):\n"
+                f'  Buyer asked an AI: "{worst["prompt"]}"\n'
+                f"  AI recommended: {', '.join(competitors)}\n"
+                f"  {l['company']} was NOT mentioned.\n\n"
+                f"Offer: agent-readiness audit + fix (llms.txt, structured pricing/FAQ, "
+                f"comparison pages) so AI assistants surface them accurately.\n\n"
+                'Return JSON: {"subject": "...", "body": "..."} — body plain text, '
+                'under 130 words. Refer to it as "an AI assistant" or "an LLM", '
+                'never "ChatGPT" or "Gemini". No placeholders, no [brackets], '
+                "no invented statistics.",
                 temperature=0.5)
-            l["subject"], l["body"] = out["subject"].strip()[:120], out["body"].strip()
+            # ponytail: append the count deterministically. Small models hallucinate math.
+            stat = (f"\n\nMethod: {f['asked']} buyer questions × "
+                    f"{len(c['llm']['audit_panel'])} AI model = {f['answers']} answers. "
+                    f"{l['company']} appeared in {f['visible_in']}.")
+            l["subject"] = out["subject"].strip()[:120]
+            l["body"] = out["body"].strip() + stat
             l["status"] = "drafted"
             done += 1
             log("drafted", company=l["company"], subject=l["subject"])
@@ -107,7 +126,10 @@ def render_screenshots() -> int:
         path = out_dir / f"{l['id']}.png"
         if path.exists() or not l.get("audit_json"):
             continue
-        per = json.loads(l["audit_json"]).get("per_prompt") or []
+        audit_data = json.loads(l["audit_json"])
+        if audit_data.get("verdict") == "visible":
+            continue  # not a target — no screenshot needed
+        per = audit_data.get("per_prompt") or []
         # worst = first prompt where visible=0 with an answer sample, else first with sample
         pick = next((x for x in per if x.get("visible") == 0 and x.get("sample")), None)
         if not pick:
@@ -191,6 +213,14 @@ def send(limit: int) -> int:
                          >= c["limits"]["followup_after_days"])
         if not (is_first or is_follow):
             continue
+        # Damage-control gate: an earlier bug pitched already-visible companies.
+        # Suppress their follow-up so we stop bothering them.
+        if is_follow:
+            audit_data = json.loads(l.get("audit_json") or "{}")
+            if audit_data.get("verdict") == "visible":
+                l["status"] = "suppressed"
+                log("suppressed_visible_followup", company=l["company"])
+                continue
         if l["email"].lower() in supp or l["email"].split("@")[-1] in supp:
             l["status"] = "suppressed"
             continue
