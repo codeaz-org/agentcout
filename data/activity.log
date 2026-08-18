@@ -210,3 +210,24 @@
 {"t": "2026-08-18T08:06:43+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-08-18T08:06:43+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-18T08:06:46+00:00", "event": "run_done", "run": 5}
+{"t": "2026-08-18T14:17:05+00:00", "event": "run_start", "run": 6, "niche": "dental_tourism"}
+{"t": "2026-08-18T14:17:17+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 7}
+{"t": "2026-08-18T14:17:19+00:00", "event": "enriched", "company": "All-on-4 Dental Implants Cost in Romania", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-18T14:17:22+00:00", "event": "enriched", "company": "All-on-4 Dental Implants Cost in Romania: The Ultimate ...", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-18T14:17:23+00:00", "event": "enriched", "company": "Sanodent Smile, Cluj-Napoca", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-08-18T14:17:33+00:00", "event": "enriched", "company": "Dental Chic Cluj-Napoca Launches Full-Arch and Single Implant Treatment Program ", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-18T14:17:37+00:00", "event": "enriched", "company": "Dental Chic Cluj-Napoca Launches Full-Arch and Single Implant Treatment Program ", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-18T14:17:39+00:00", "event": "enriched", "company": "Clinic\u0103 Stomatologic\u0103 Cluj", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-08-18T14:17:44+00:00", "event": "enriched", "company": "Dental Clinics in Romania", "email": false, "country": "GB", "status": "no_email"}
+{"t": "2026-08-18T14:20:36+00:00", "event": "audited", "company": "All-on-4 Dental Implants Cost in Romania", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-18T14:23:16+00:00", "event": "audited", "company": "Sanodent Smile, Cluj-Napoca", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-18T14:25:49+00:00", "event": "audited", "company": "Clinic\u0103 Stomatologic\u0103 Cluj", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "drafted", "company": "List of technology startups in Romania", "subject": "Your clinic didn't show up in AI assistant answers"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "not_target", "company": "All-on-4 Dental Implants Cost in Romania", "visibility": "4/4"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "not_target", "company": "Sanodent Smile, Cluj-Napoca", "visibility": "2/4"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "not_target", "company": "Clinic\u0103 Stomatologic\u0103 Cluj", "visibility": "2/4"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-18T14:26:17+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-08-18T14:26:24+00:00", "event": "sent", "company": "List of technology startups in Romania", "to": "contact@rotsa.ro", "followup": false}
+{"t": "2026-08-18T14:27:54+00:00", "event": "run_done", "run": 6}
