@@ -231,3 +231,32 @@
 {"t": "2026-08-18T14:26:17+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-18T14:26:24+00:00", "event": "sent", "company": "List of technology startups in Romania", "to": "contact@rotsa.ro", "followup": false}
 {"t": "2026-08-18T14:27:54+00:00", "event": "run_done", "run": 6}
+{"t": "2026-08-19T07:58:02+00:00", "event": "run_start", "run": 7, "niche": "eu_b2b_saas"}
+{"t": "2026-08-19T07:58:13+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 8}
+{"t": "2026-08-19T07:58:13+00:00", "event": "enriched", "company": "FintechOS: Funding, Team & Investors", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-08-19T07:58:15+00:00", "event": "enriched", "company": "12 VC Firms Redefining the Startup Game in Bucharest", "email": true, "country": "ES", "status": "enriched"}
+{"t": "2026-08-19T07:58:17+00:00", "event": "enriched", "company": "A Successful Romanian AI-Based FinTech Startup", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-19T07:58:24+00:00", "event": "enriched", "company": "742 Top startups in Romania for July 2026", "email": false, "country": "FR", "status": "no_email"}
+{"t": "2026-08-19T07:58:42+00:00", "event": "enriched", "company": "Fintech Startup jobs in Bucharest", "email": false, "country": "GB", "status": "no_email"}
+{"t": "2026-08-19T07:58:45+00:00", "event": "enriched", "company": "Best B2B SaaS SEO Agencies in the UK", "email": true, "country": "ES", "status": "enriched"}
+{"t": "2026-08-19T07:58:47+00:00", "event": "enriched", "company": "366 SaaS Startups UK (Free List)", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-19T07:58:50+00:00", "event": "enriched", "company": "B2B SaaS Pricing Models and Strategies to Scale Confidently", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-19T08:02:07+00:00", "event": "audited", "company": "FintechOS: Funding, Team & Investors", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-19T08:05:09+00:00", "event": "audited", "company": "12 VC Firms Redefining the Startup Game in Bucharest", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-19T08:08:38+00:00", "event": "audited", "company": "Best B2B SaaS SEO Agencies in the UK", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "audited", "company": "366 SaaS Startups UK (Free List)", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "not_target", "company": "FintechOS: Funding, Team & Investors", "visibility": "3/4"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "not_target", "company": "12 VC Firms Redefining the Startup Game in Bucharest", "visibility": "3/4"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "not_target", "company": "Best B2B SaaS SEO Agencies in the UK", "visibility": "3/4"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "not_target", "company": "366 SaaS Startups UK (Free List)", "visibility": "3/4"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-19T08:11:23+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-08-19T08:11:32+00:00", "event": "sent", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "to": "office@platinumdentalcenter.ro", "followup": true}
+{"t": "2026-08-19T08:13:06+00:00", "event": "sent", "company": "(English) Empire Dental", "to": "empiredentalcluj@gmail.com", "followup": true}
+{"t": "2026-08-19T08:14:36+00:00", "event": "suppressed_visible_followup", "company": "dental tourism in Cluj, Romania"}
+{"t": "2026-08-19T08:14:36+00:00", "event": "suppressed_visible_followup", "company": "Dental Work in Cluj Napoca, Romania"}
+{"t": "2026-08-19T08:14:36+00:00", "event": "suppressed_visible_followup", "company": "Medical Tourism in Romania"}
+{"t": "2026-08-19T08:14:36+00:00", "event": "suppressed_visible_followup", "company": "Myra Dental Centre Turkey"}
+{"t": "2026-08-19T08:14:36+00:00", "event": "suppressed_visible_followup", "company": "Dental Tourism Hungary vs Turkey: Which Is Better in 2026?"}
+{"t": "2026-08-19T08:14:36+00:00", "event": "run_done", "run": 7}
