@@ -304,3 +304,18 @@
 {"t": "2026-08-21T08:09:21+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-08-21T08:09:21+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-21T08:09:34+00:00", "event": "run_done", "run": 11}
+{"t": "2026-08-21T14:19:02+00:00", "event": "run_start", "run": 12, "niche": "dental_tourism"}
+{"t": "2026-08-21T14:19:12+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 5}
+{"t": "2026-08-21T14:19:16+00:00", "event": "enriched", "company": "Lake Wales Dental Group: All-on-X Implants Treatments in FL", "email": true, "country": "PL", "status": "enriched"}
+{"t": "2026-08-21T14:19:21+00:00", "event": "enriched", "company": "Affordable Dental Insurance Plans", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-21T14:19:25+00:00", "event": "enriched", "company": "Lake Wales Dentist", "email": false, "country": "ES", "status": "no_email"}
+{"t": "2026-08-21T14:19:27+00:00", "event": "enriched", "company": "Lake Wales, FL Dentist Near Me", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-21T14:19:30+00:00", "event": "enriched", "company": "Dental", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-08-21T14:22:37+00:00", "event": "audited", "company": "Lake Wales Dental Group: All-on-X Implants Treatments in FL", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-21T14:24:59+00:00", "event": "audited", "company": "Dental", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-21T14:24:59+00:00", "event": "not_target", "company": "Lake Wales Dental Group: All-on-X Implants Treatments in FL", "visibility": "2/4"}
+{"t": "2026-08-21T14:24:59+00:00", "event": "not_target", "company": "Dental", "visibility": "4/4"}
+{"t": "2026-08-21T14:24:59+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-21T14:24:59+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-21T14:24:59+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-08-21T14:25:05+00:00", "event": "run_done", "run": 12}
