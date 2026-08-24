@@ -319,3 +319,17 @@
 {"t": "2026-08-21T14:24:59+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-08-21T14:24:59+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-21T14:25:05+00:00", "event": "run_done", "run": 12}
+{"t": "2026-08-24T08:07:48+00:00", "event": "run_start", "run": 13, "niche": "eu_b2b_saas"}
+{"t": "2026-08-24T08:08:00+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 3}
+{"t": "2026-08-24T08:08:06+00:00", "event": "enriched", "company": "Best Shipping Software for SMB Ecommerce in 2026: The ...", "email": false, "country": "PL", "status": "no_email"}
+{"t": "2026-08-24T08:08:15+00:00", "event": "enriched", "company": "Top 10 New SaaS Startups in the UK", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-24T08:08:17+00:00", "event": "enriched", "company": "UK SaaS Pricing Models \u2014 Complete Guide for Founders (2025)", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-24T08:11:50+00:00", "event": "audited", "company": "Top 10 New SaaS Startups in the UK", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-24T08:15:09+00:00", "event": "audited", "company": "UK SaaS Pricing Models \u2014 Complete Guide for Founders (2025)", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-24T08:15:09+00:00", "event": "not_target", "company": "Top 10 New SaaS Startups in the UK", "visibility": "3/4"}
+{"t": "2026-08-24T08:15:09+00:00", "event": "not_target", "company": "UK SaaS Pricing Models \u2014 Complete Guide for Founders (2025)", "visibility": "4/4"}
+{"t": "2026-08-24T08:15:10+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-24T08:15:10+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-24T08:15:10+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-08-24T08:15:30+00:00", "event": "sent", "company": "List of technology startups in Romania", "to": "contact@rotsa.ro", "followup": true}
+{"t": "2026-08-24T08:17:00+00:00", "event": "run_done", "run": 13}
