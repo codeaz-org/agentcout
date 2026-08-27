@@ -407,3 +407,20 @@
 {"t": "2026-08-27T18:27:36+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-08-27T18:27:36+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-27T18:27:38+00:00", "event": "run_done", "run": 19}
+{"t": "2026-08-27T23:03:58+00:00", "event": "run_start", "run": 20, "niche": "dental_tourism"}
+{"t": "2026-08-27T23:04:10+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 5}
+{"t": "2026-08-27T23:04:12+00:00", "event": "enriched", "company": "Porcelain Veneers Timisoara Romania \u2013 From 300\u20ac", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-08-27T23:04:14+00:00", "event": "enriched", "company": "Dental Implants in Romania", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-27T23:04:17+00:00", "event": "enriched", "company": "Dental Implants in Romania: Cheapest European Option for UK ...", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-27T23:04:19+00:00", "event": "enriched", "company": "Dental Implants & Crowns in Bucharest", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-27T23:04:33+00:00", "event": "enriched", "company": "Dental Implants Abroad Cost \u00a3400 in Romania", "email": false, "country": "GB", "status": "no_email"}
+{"t": "2026-08-27T23:07:49+00:00", "event": "audited", "company": "Dental Implants in Romania", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-27T23:10:55+00:00", "event": "audited", "company": "Dental Implants in Romania: Cheapest European Option for UK ...", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "audited", "company": "Dental Implants & Crowns in Bucharest", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "not_target", "company": "Dental Implants in Romania", "visibility": "4/4"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "not_target", "company": "Dental Implants in Romania: Cheapest European Option for UK ...", "visibility": "3/4"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "not_target", "company": "Dental Implants & Crowns in Bucharest", "visibility": "4/4"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-27T23:13:38+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-08-27T23:13:40+00:00", "event": "run_done", "run": 20}
