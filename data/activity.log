@@ -454,3 +454,12 @@
 {"t": "2026-08-31T15:17:03+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-08-31T15:17:03+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-31T15:17:04+00:00", "event": "run_done", "run": 23}
+{"t": "2026-08-31T19:37:46+00:00", "event": "run_start", "run": 24, "niche": "dental_tourism"}
+{"t": "2026-08-31T19:37:59+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 1}
+{"t": "2026-08-31T19:38:00+00:00", "event": "enriched", "company": "Cluj Dental Clinic", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-08-31T19:41:04+00:00", "event": "audited", "company": "Cluj Dental Clinic", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-08-31T19:41:04+00:00", "event": "not_target", "company": "Cluj Dental Clinic", "visibility": "2/4"}
+{"t": "2026-08-31T19:41:04+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-08-31T19:41:04+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-08-31T19:41:04+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-08-31T19:41:07+00:00", "event": "run_done", "run": 24}
