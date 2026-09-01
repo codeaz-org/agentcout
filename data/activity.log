@@ -472,3 +472,13 @@
 {"t": "2026-09-01T12:41:40+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-01T12:41:40+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-01T12:41:43+00:00", "event": "run_done", "run": 25}
+{"t": "2026-09-01T17:27:53+00:00", "event": "run_start", "run": 26, "niche": "dental_tourism"}
+{"t": "2026-09-01T17:28:04+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 2}
+{"t": "2026-09-01T17:28:04+00:00", "event": "enriched", "company": "Verdant Isle Dental Clinic (Cluj-napoca, Romania): Key facts for ...", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-09-01T17:28:07+00:00", "event": "enriched", "company": "Dental implants in Cluj, Romania \u2014 for patients who travel \u00b7 Implant Estet", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-09-01T17:31:00+00:00", "event": "audited", "company": "Dental implants in Cluj, Romania \u2014 for patients who travel \u00b7 Implant Estet", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-09-01T17:31:00+00:00", "event": "not_target", "company": "Dental implants in Cluj, Romania \u2014 for patients who travel \u00b7 Implant Estet", "visibility": "3/4"}
+{"t": "2026-09-01T17:31:00+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-01T17:31:00+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-01T17:31:00+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-01T17:31:10+00:00", "event": "run_done", "run": 26}
