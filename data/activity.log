@@ -463,3 +463,12 @@
 {"t": "2026-08-31T19:41:04+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-08-31T19:41:04+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-08-31T19:41:07+00:00", "event": "run_done", "run": 24}
+{"t": "2026-09-01T12:37:59+00:00", "event": "run_start", "run": 25, "niche": "eu_b2b_saas"}
+{"t": "2026-09-01T12:38:12+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 1}
+{"t": "2026-09-01T12:38:14+00:00", "event": "enriched", "company": "Construction PM Software UK 2026", "email": true, "country": "PT", "status": "enriched"}
+{"t": "2026-09-01T12:41:39+00:00", "event": "audited", "company": "Construction PM Software UK 2026", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-09-01T12:41:40+00:00", "event": "not_target", "company": "Construction PM Software UK 2026", "visibility": "3/4"}
+{"t": "2026-09-01T12:41:40+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-01T12:41:40+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-01T12:41:40+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-01T12:41:43+00:00", "event": "run_done", "run": 25}
