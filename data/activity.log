@@ -497,3 +497,9 @@
 {"t": "2026-09-02T17:19:42+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-02T17:19:42+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-02T17:19:44+00:00", "event": "run_done", "run": 28}
+{"t": "2026-09-03T12:09:15+00:00", "event": "run_start", "run": 29, "niche": "eu_b2b_saas"}
+{"t": "2026-09-03T12:09:24+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 0}
+{"t": "2026-09-03T12:09:24+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-03T12:09:24+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-03T12:09:24+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-03T12:09:27+00:00", "event": "run_done", "run": 29}
