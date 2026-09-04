@@ -515,3 +515,15 @@
 {"t": "2026-09-04T12:11:09+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-04T12:11:09+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-04T12:11:11+00:00", "event": "run_done", "run": 31}
+{"t": "2026-09-04T17:04:22+00:00", "event": "run_start", "run": 32, "niche": "dental_tourism"}
+{"t": "2026-09-04T17:04:41+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 2}
+{"t": "2026-09-04T17:04:42+00:00", "event": "enriched", "company": "High-Tech Dental Clinic", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-09-04T17:04:44+00:00", "event": "enriched", "company": "Clinica Stomatologica Cluj Napoca", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-09-04T17:07:36+00:00", "event": "audited", "company": "High-Tech Dental Clinic", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-09-04T17:10:51+00:00", "event": "audited", "company": "Clinica Stomatologica Cluj Napoca", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-09-04T17:10:51+00:00", "event": "not_target", "company": "High-Tech Dental Clinic", "visibility": "2/4"}
+{"t": "2026-09-04T17:10:51+00:00", "event": "not_target", "company": "Clinica Stomatologica Cluj Napoca", "visibility": "2/4"}
+{"t": "2026-09-04T17:10:51+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-04T17:10:51+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-04T17:10:51+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-04T17:10:53+00:00", "event": "run_done", "run": 32}
