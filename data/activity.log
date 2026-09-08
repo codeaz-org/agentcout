@@ -548,3 +548,16 @@
 {"t": "2026-09-08T12:16:01+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-08T12:16:01+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-08T12:16:04+00:00", "event": "run_done", "run": 35}
+{"t": "2026-09-08T17:28:58+00:00", "event": "run_start", "run": 36, "niche": "dental_tourism"}
+{"t": "2026-09-08T17:29:10+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 3}
+{"t": "2026-09-08T17:29:10+00:00", "event": "enriched", "company": "Dental Tourism Romania for UK Patients", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-09-08T17:29:17+00:00", "event": "enriched", "company": "Best Dental treatment clinics in Romania (2026) \u2014 MediList ...", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-09-08T17:29:20+00:00", "event": "enriched", "company": "Platinum Dental Center \u2013 Clinica stomatologica Cluj-Napoca", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-09-08T17:32:03+00:00", "event": "audited", "company": "Dental Tourism Romania for UK Patients", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-09-08T17:34:31+00:00", "event": "audited", "company": "Platinum Dental Center \u2013 Clinica stomatologica Cluj-Napoca", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-09-08T17:34:31+00:00", "event": "not_target", "company": "Dental Tourism Romania for UK Patients", "visibility": "3/4"}
+{"t": "2026-09-08T17:34:31+00:00", "event": "not_target", "company": "Platinum Dental Center \u2013 Clinica stomatologica Cluj-Napoca", "visibility": "2/4"}
+{"t": "2026-09-08T17:34:31+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-08T17:34:31+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-08T17:34:31+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-08T17:34:34+00:00", "event": "run_done", "run": 36}
