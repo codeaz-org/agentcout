@@ -539,3 +539,12 @@
 {"t": "2026-09-07T18:23:27+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-07T18:23:27+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-07T18:23:30+00:00", "event": "run_done", "run": 34}
+{"t": "2026-09-08T12:12:20+00:00", "event": "run_start", "run": 35, "niche": "eu_b2b_saas"}
+{"t": "2026-09-08T12:12:30+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 1}
+{"t": "2026-09-08T12:12:31+00:00", "event": "enriched", "company": "Best HR Software for Small Businesses UK", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-09-08T12:16:01+00:00", "event": "audited", "company": "Best HR Software for Small Businesses UK", "verdict": "visible", "visibility": "4/4"}
+{"t": "2026-09-08T12:16:01+00:00", "event": "not_target", "company": "Best HR Software for Small Businesses UK", "visibility": "4/4"}
+{"t": "2026-09-08T12:16:01+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-08T12:16:01+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-08T12:16:01+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-08T12:16:04+00:00", "event": "run_done", "run": 35}
