@@ -713,3 +713,15 @@
 {"t": "2026-09-22T17:48:13+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-22T17:48:13+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-22T17:48:15+00:00", "event": "run_done", "run": 56}
+{"t": "2026-09-23T12:49:13+00:00", "event": "run_start", "run": 57, "niche": "eu_b2b_saas"}
+{"t": "2026-09-23T12:49:30+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 2}
+{"t": "2026-09-23T12:49:33+00:00", "event": "enriched", "company": "B2B SaaS Pricing Strategy UK Startups: Beyond Freemium", "email": false, "country": "GB", "status": "no_email"}
+{"t": "2026-09-23T12:49:35+00:00", "event": "enriched", "company": "Top 96 SaaS startups in UK 2026", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-09-23T12:50:37+00:00", "event": "audit_model_failed", "provider": "ollama", "err": "All LLM providers failed: ollama: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)"}
+{"t": "2026-09-23T12:53:00+00:00", "event": "audit_model_failed", "provider": "ollama", "err": "All LLM providers failed: ollama: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)"}
+{"t": "2026-09-23T12:53:12+00:00", "event": "audited", "company": "Top 96 SaaS startups in UK 2026", "verdict": "visible", "visibility": "2/2"}
+{"t": "2026-09-23T12:53:12+00:00", "event": "not_target", "company": "Top 96 SaaS startups in UK 2026", "visibility": "2/2"}
+{"t": "2026-09-23T12:53:12+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-09-23T12:53:12+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-09-23T12:53:12+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-09-23T12:53:14+00:00", "event": "run_done", "run": 57}
