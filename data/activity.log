@@ -853,3 +853,21 @@
 {"t": "2026-09-30T18:45:34+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
 {"t": "2026-09-30T18:45:34+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
 {"t": "2026-09-30T18:45:36+00:00", "event": "run_done", "run": 68}
+{"t": "2026-10-01T14:36:07+00:00", "event": "run_start", "run": 69, "niche": "eu_b2b_saas"}
+{"t": "2026-10-01T14:36:13+00:00", "event": "ddg_error", "query": "B2B SaaS Romania startup platform", "err": "No results found."}
+{"t": "2026-10-01T14:36:16+00:00", "event": "ddg_error", "query": "fintech SaaS Bucharest startup", "err": "No results found."}
+{"t": "2026-10-01T14:36:18+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 2}
+{"t": "2026-10-01T14:36:20+00:00", "event": "enriched", "company": "Best HR Software for UK Small Business (2026)", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-10-01T14:36:22+00:00", "event": "enriched", "company": "Small HR \u2014 HR Solutions for Small Businesses in the UK", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-10-01T14:39:14+00:00", "event": "audited", "company": "Memorial Family Dental \u2013 Houston Texas \u2013 Leading dental practice...", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-10-01T14:42:45+00:00", "event": "audited", "company": "Best HR Software for UK Small Business (2026)", "verdict": "weak", "visibility": "1/4"}
+{"t": "2026-10-01T14:46:15+00:00", "event": "audited", "company": "Small HR \u2014 HR Solutions for Small Businesses in the UK", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-10-01T14:46:15+00:00", "event": "compose_skip", "company": "Top 25 B2B SaaS development agencies based in Romania", "reason": "no_prompt_sample"}
+{"t": "2026-10-01T14:46:15+00:00", "event": "not_target", "company": "Memorial Family Dental \u2013 Houston Texas \u2013 Leading dental practice...", "visibility": "2/4"}
+{"t": "2026-10-01T14:46:46+00:00", "event": "compose_error", "company": "Best HR Software for UK Small Business (2026)", "err": "Expecting ',' delimiter: line 1 column 214 (char 213)"}
+{"t": "2026-10-01T14:46:46+00:00", "event": "not_target", "company": "Small HR \u2014 HR Solutions for Small Businesses in the UK", "visibility": "3/4"}
+{"t": "2026-10-01T14:46:46+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-10-01T14:46:46+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-10-01T14:46:46+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-10-01T14:46:46+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
+{"t": "2026-10-01T14:46:52+00:00", "event": "run_done", "run": 69}
