@@ -940,3 +940,17 @@
 {"t": "2026-10-06T19:05:54+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
 {"t": "2026-10-06T19:05:54+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
 {"t": "2026-10-06T19:05:56+00:00", "event": "run_done", "run": 75}
+{"t": "2026-10-07T14:36:50+00:00", "event": "run_start", "run": 76, "niche": "dental_tourism"}
+{"t": "2026-10-07T14:36:59+00:00", "event": "ddg_error", "query": "cosmetic dentistry Timisoara international patients", "err": "No results found."}
+{"t": "2026-10-07T14:37:01+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 1}
+{"t": "2026-10-07T14:37:03+00:00", "event": "enriched", "company": "All-on-4 in Romania", "email": true, "country": "RO", "status": "enriched"}
+{"t": "2026-10-07T14:39:49+00:00", "event": "audited", "company": "All-on-4 in Romania", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-10-07T14:39:49+00:00", "event": "compose_skip", "company": "Top 25 B2B SaaS development agencies based in Romania", "reason": "no_prompt_sample"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "compose_error", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "not_target", "company": "All-on-4 in Romania", "visibility": "3/4"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
+{"t": "2026-10-07T14:40:19+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
+{"t": "2026-10-07T14:40:21+00:00", "event": "run_done", "run": 76}
