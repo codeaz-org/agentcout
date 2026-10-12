@@ -1039,3 +1039,21 @@
 {"t": "2026-10-12T16:49:33+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
 {"t": "2026-10-12T16:49:33+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
 {"t": "2026-10-12T16:49:37+00:00", "event": "run_done", "run": 82}
+{"t": "2026-10-12T21:52:05+00:00", "event": "run_start", "run": 83, "niche": "eu_b2b_saas"}
+{"t": "2026-10-12T21:52:19+00:00", "event": "ddg_error", "query": "SaaS tool for construction companies UK", "err": "No results found."}
+{"t": "2026-10-12T21:52:21+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 3}
+{"t": "2026-10-12T21:52:25+00:00", "event": "enriched", "company": "Top Logistics Software in the UK in 2026", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-10-12T21:52:27+00:00", "event": "enriched", "company": "Best HR Software for UK Small Businesses (2026)", "email": true, "country": "PL", "status": "enriched"}
+{"t": "2026-10-12T21:52:37+00:00", "event": "enriched", "company": "Small Business HR Software", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-10-12T21:54:29+00:00", "event": "audited", "company": "Top Logistics Software in the UK in 2026", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-10-12T21:56:12+00:00", "event": "audited", "company": "Best HR Software for UK Small Businesses (2026)", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-10-12T21:56:12+00:00", "event": "compose_skip", "company": "Top 25 B2B SaaS development agencies based in Romania", "reason": "no_prompt_sample"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "compose_error", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "not_target", "company": "Top Logistics Software in the UK in 2026", "visibility": "3/4"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "not_target", "company": "Best HR Software for UK Small Businesses (2026)", "visibility": "3/4"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
+{"t": "2026-10-12T21:56:22+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
+{"t": "2026-10-12T21:56:24+00:00", "event": "run_done", "run": 83}
