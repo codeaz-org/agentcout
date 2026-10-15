@@ -1123,3 +1123,12 @@
 {"t": "2026-10-15T12:43:33+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
 {"t": "2026-10-15T12:43:33+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
 {"t": "2026-10-15T12:43:35+00:00", "event": "run_done", "run": 88}
+{"t": "2026-10-15T17:53:36+00:00", "event": "run_start", "run": 89, "niche": "eu_b2b_saas"}
+{"t": "2026-10-15T17:53:49+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 0}
+{"t": "2026-10-15T17:53:49+00:00", "event": "compose_skip", "company": "Top 25 B2B SaaS development agencies based in Romania", "reason": "no_prompt_sample"}
+{"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
+{"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
+{"t": "2026-10-15T17:54:10+00:00", "event": "run_done", "run": 89}
