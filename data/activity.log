@@ -1132,3 +1132,22 @@
 {"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
 {"t": "2026-10-15T17:53:49+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
 {"t": "2026-10-15T17:54:10+00:00", "event": "run_done", "run": 89}
+{"t": "2026-10-16T12:31:40+00:00", "event": "run_start", "run": 90, "niche": "dental_tourism"}
+{"t": "2026-10-16T12:31:46+00:00", "event": "ddg_error", "query": "dental clinic Cluj english speaking international patients", "err": "No results found."}
+{"t": "2026-10-16T12:31:53+00:00", "event": "discover_done", "niche": "dental_tourism", "added": 3}
+{"t": "2026-10-16T12:31:55+00:00", "event": "enriched", "company": "Dental Implants & Travel in Vietnam", "email": true, "country": "GB", "status": "enriched"}
+{"t": "2026-10-16T12:31:59+00:00", "event": "enriched", "company": "iSmile Dental:iSmile Dental", "email": true, "country": "FR", "status": "enriched"}
+{"t": "2026-10-16T12:32:01+00:00", "event": "enriched", "company": "10 Best Dental Clinics in Vietnam 2026 (Annual Ranking)", "email": true, "country": "", "status": "enriched"}
+{"t": "2026-10-16T12:34:32+00:00", "event": "audited", "company": "Dental Implants & Travel in Vietnam", "verdict": "visible", "visibility": "3/4"}
+{"t": "2026-10-16T12:37:00+00:00", "event": "audited", "company": "iSmile Dental:iSmile Dental", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "audited", "company": "10 Best Dental Clinics in Vietnam 2026 (Annual Ranking)", "verdict": "visible", "visibility": "2/4"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "compose_skip", "company": "Top 25 B2B SaaS development agencies based in Romania", "reason": "no_prompt_sample"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "not_target", "company": "Dental Implants & Travel in Vietnam", "visibility": "3/4"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "not_target", "company": "iSmile Dental:iSmile Dental", "visibility": "2/4"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "not_target", "company": "10 Best Dental Clinics in Vietnam 2026 (Annual Ranking)", "visibility": "2/4"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
+{"t": "2026-10-16T12:39:30+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
+{"t": "2026-10-16T12:39:32+00:00", "event": "run_done", "run": 90}
