@@ -2014,3 +2014,31 @@
 {"t": "2026-11-26T17:48:16+00:00", "event": "screenshot_rendered", "company": "all", "file": "0063be5a45.png"}
 {"t": "2026-11-26T17:48:16+00:00", "event": "screenshot_rendered", "company": "Home \u00b7 EsthetiX Dental", "file": "869ead6f29.png"}
 {"t": "2026-11-26T17:48:18+00:00", "event": "run_done", "run": 146}
+{"t": "2026-11-26T22:34:46+00:00", "event": "run_start", "run": 147, "niche": "eu_b2b_saas"}
+{"t": "2026-11-26T22:34:51+00:00", "event": "ddg_error", "query": "B2B SaaS startup UK pricing platform", "err": "No results found."}
+{"t": "2026-11-26T22:34:54+00:00", "event": "discover_done", "niche": "eu_b2b_saas", "added": 12}
+{"t": "2026-11-26T22:34:55+00:00", "event": "enriched", "company": "The Simplest HR Software", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-11-26T22:35:00+00:00", "event": "enriched", "company": "What is HR? Definition, core functions and business impact", "email": true, "country": "DE", "status": "blocked_country"}
+{"t": "2026-11-26T22:35:01+00:00", "event": "enriched", "company": "Human Resources: Key Roles and Responsibilities in Business", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-11-26T22:35:03+00:00", "event": "enriched", "company": "What Does Human Resources Do? (With 12 Key Functions)", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-11-26T22:35:05+00:00", "event": "enriched", "company": "What Is Human Resources (HR)? Areas, Responsibilities, and Roles", "email": false, "country": "HU", "status": "no_email"}
+{"t": "2026-11-26T22:35:32+00:00", "event": "enriched", "company": "HR.com", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-11-26T22:35:34+00:00", "event": "enriched", "company": "What Is SaaS? (Definition, Examples, Benefits, Risks)", "email": false, "country": "CZ", "status": "no_email"}
+{"t": "2026-11-26T22:35:38+00:00", "event": "enriched", "company": "What is Software as a Service (SaaS)?", "email": false, "country": "RO", "status": "no_email"}
+{"t": "2026-11-26T22:35:39+00:00", "event": "enriched", "company": "What is software as a service (SaaS)?", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-11-26T22:35:41+00:00", "event": "enriched", "company": "What is SaaS?", "email": true, "country": "DE", "status": "blocked_country"}
+{"t": "2026-11-26T22:35:44+00:00", "event": "enriched", "company": "What Is SaaS? Definition, Benefits, and Examples", "email": false, "country": "", "status": "no_email"}
+{"t": "2026-11-26T22:35:48+00:00", "event": "enriched", "company": "What is SaaS? CRM software and integration guide", "email": false, "country": "PL", "status": "no_email"}
+{"t": "2026-11-26T22:35:49+00:00", "event": "compose_skip", "company": "Top 25 B2B SaaS development agencies based in Romania", "reason": "no_prompt_sample"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "compose_error", "company": "eCosmetics: Popular Brands, Fast Free Shipping, 100% Guaranteed", "err": "Expecting value: line 1 column 1 (char 0)"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "Clinica Stomatologic\u0103 Platinum Dental Center Cluj-Napoca", "file": "f3f9548a83.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "(English) Empire Dental", "file": "b8dd4df70a.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "List of technology startups in Romania", "file": "4aee5a99f7.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "Best HR Software for UK Small Business (2026)", "file": "77ffb5fc2c.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "Dentist in Timisoara, Dental Clinic Timi\u0219oara", "file": "046a7eabaf.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "COSMETIC Definition & Meaning", "file": "803b2a4352.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "Cosmetis", "file": "a55a51fdd4.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "eCosmetics: Popular Brands, Fast Free Shipping, 100% Guaranteed", "file": "fee69d48bc.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "all", "file": "0063be5a45.png"}
+{"t": "2026-11-26T22:36:10+00:00", "event": "screenshot_rendered", "company": "Home \u00b7 EsthetiX Dental", "file": "869ead6f29.png"}
+{"t": "2026-11-26T22:36:12+00:00", "event": "run_done", "run": 147}
